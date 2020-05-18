@@ -1,0 +1,13 @@
+#Week 2: Challenge 2.15
+#Fahrenheit to Celcius or Celcius to Fahrenheit calculator
+command=input("What value are you going to enter;Fahrenheit or Celsius? F for Fahrenheit and C for Celsius> ")
+if command=="F" or command=="f" or command=="Fahrenheit" or command=="fahrenheit":
+    input=input("Enter Fahrenheit value> ")
+    value=int(input)
+    result=(5/9*(value-32))
+    print(result)
+else:
+    input=input("Enter Celsius value> ")
+    value=int(input)
+    result=(9/5*value)+32
+    print(result)
